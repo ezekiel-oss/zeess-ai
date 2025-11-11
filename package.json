@@ -2,6 +2,10 @@
   "name": "my-ai-chatbot",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=18.17.0 <19 || >=20",
+    "npm": ">=8"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
